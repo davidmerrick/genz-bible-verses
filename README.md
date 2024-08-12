@@ -1,0 +1,1 @@
+Website that takes a random bible verse and translates it to Gen-Z slang.
