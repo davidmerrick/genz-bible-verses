@@ -104,7 +104,9 @@ document.getElementById('getVerseBtn').addEventListener('click', async function 
                     },
                     {
                         role: "user",
-                        content: `Give me the Bible verse ${getRandomBibleVerse()} translated into Gen-Z slang. Prefix the output with the name of the verse. Don't include the original verse in the output.`
+                        content: `Give me the Bible verse ${getRandomBibleVerse()} translated into Gen-Z slang. The output should be formatted like "[Bible book and verse]:[Translated verse] 
+                        Add 5 newlines, then
+                        Original: [Original verse]"`
                     }
                 ],
                 max_tokens: 100
